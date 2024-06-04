@@ -1,5 +1,5 @@
-name: "example-package"
-title: "Example package"
-description: An example package to show how to host Espanso packages
+name: "Hivello-FAQ-SR-Package"
+title: "Hivello FAQ Saved Response Package"
+description: A collection of FAQ responses that can be used to support Hivello users on any platform.
 version: 0.1.0
-author: Federico Terzi
+author: Hivello
