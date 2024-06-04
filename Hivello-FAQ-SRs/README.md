@@ -1,2 +1,1 @@
-This is an **example package**. Its purpose is to show
-how you can create custom repositories for Espanso packages.
+This is a **Saved Response** package. It's purpose is to provide support staff with a searchable collection of FAQ items that serve as both saved reponses that can be used to reply directly to users, but also as a searchable knowledge base. 
