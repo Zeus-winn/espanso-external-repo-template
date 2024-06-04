@@ -1,3 +1,307 @@
 matches:
-  - trigger: ":hello"
-    replace: "Hello from Example Package!"
+  - trigger: ":download_where_can_i_download_the_app"
+    replace: |
+      We're thrilled about your interest in our app and hope to welcome you as one of our early adopters! While the app isn't available for public download just yet, you can subscribe to our waitlist. We'll reach out to you shortly once the app is publicly available. 
+  - trigger: ":download_where_is_the_app_available_for_download"
+    replace: |
+      Once Hivello's revolutionary app is available for public download, it will be accessible worldwide. For now, it's exclusively available to our early birds on the waitlist. Please subscribe to the waitlist so we can keep you informed and notify you when the app is ready for download! 
+  - trigger: ":download_i_am_having_trouble_downloading_the_app"
+    replace: |
+      We are so sorry to hear that! 
+      First, please check if your device meets with the eligibility requirements (Windows 10 Home/ Pro, Windows 11 Home/Pro operating system AND 1 core CPU AND at least 4GB RAM AND 200GB free disk space). If you're meeting all the criteria, we need to make sure that you are part of the private beta. You are part of the private beta if you received an invitation email to download the app. If you're still having trouble, please contact us on support@hivello.com .
+  - trigger: ":download_what_are_the_system_requirements_for_downloading_the_app"
+    replace: |
+      To get started, you will need a Windows 10 Home/ Pro or Windows 11 Home/Pro operating system, 1 core CPU, 4GB RAM and 200GB free disk space.
+  - trigger: ":download_is_the_app_for_free"
+    replace: |
+      You can download the app free of charge. The app does not allow any in-app purchases or has any hidden costs associated with it.
+  - trigger: ":download_can_i_use_the_app_in_languages_other_than_english"
+    replace: |
+      At this point of time, the app only supports English language.
+  - trigger: ":download_how_can_i_download_the_app_to_my_phone"
+    replace: |
+      To get started, you will need a Windows 10 Home/ Pro, Windows 11 Home/Pro operating system, 1 core CPU, 4GB RAM and 200GB free disk space. 
+      Our champions in the developer team are working hard to make Hivello accessible for Mac, Linux and mobile users as well, stay tuned for the upcoming launch! 
+  
+  - trigger: ":download_i_am_having_concerns_about_data_security_and_privacy"
+    replace: |
+      We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. To learn more about our Privacy Policy, please visit the following link.
+  - trigger: ":download_are_there_any_specific_internet_connection_requirements_for_running_the_app_on_my_laptop"
+    replace: |
+      There aren't any specific internet connection requirements for running the app on your device.
+  - trigger: ":earning_what_are_the_available_currencies_for_payout"
+    replace: |
+      At Hivello we offer our hosts the opportunity to be paid by bank transfer through Revolut in a variety of fiat currencies, including but not limited to US Dollars, Euro, British Pound Sterling, Canadian Dollar & Australian dollars; or in USDT if you choose to get payed through your crypto wallet.
+      To learn more about the currencies supported by Revolut, we invite you to visit the following link. 
+  - trigger: ":earning_how_will_i_receive_my_earnings"
+    replace: |
+      You will receive your earnings via bank transfer or via your crypto wallet.
+  - trigger: ":earning_how_do_i_withdraw_my_earnings_from_the_app"
+    replace: |
+      To provide you the best possible user experience, once you completed the download and installation of the app, please add your bank account or crypto wallet details to ensure secure and smooth payouts. To complete this step, please navigate to the “Wallet” tab in the app. Please have your account details such as account number, SWIFT code, IBAN, account name and bank name handy to complete the process as fast as possible. Payments are made on a monthly basis, within 14 days of the end of the month. Please make sure that your account details are accurate to ensure you receive your payments. We cannot be held responsible for payments sent to incorrect bank account details. Should you decide to leverage your crypto wallet for payouts, we highly encourage you use your verified wallet address.
+  - trigger: ":earning_is_my_payment_information_secure"
+    replace: |
+      Yes, your data's security is our top priority. Hivello employs industry-standard security protocols to ensure your data is safe.
+  - trigger: ":earning_who_do_i_contact_if_i_don’t_receive_my_earnings"
+    replace: |
+      Payments are made on a monthly basis and will be processed within 14 days after the end of each month. Please double-check that your bank account details are accurate to ensure you receive your payments. We cannot be held responsible for payments sent to incorrect bank account details. Should you decide to leverage your crypto wallet for payouts, we highly encourage you use your verified wallet address. If your details were correct and you haven't received your payment within the 14-day window, please contact our support team on support@hivello.com for assistance.
+  - trigger: ":earning_what_should_i_do_if_there_is_a_discrepancy_in_my_earnings"
+    replace: |
+      Please note that the Gross earnings displayed on the "Dashboard" are estimates excluding the deduction of certain fees that are depending on factors such as the installed networks' policies, gas/transaction fee deductions or conversion rates. Please be aware that because of these components, the issued payouts are not going to equal to the estimated earnings displayed on the dashboard. 
+  - trigger: ":earning_how_do_i_report_a_problem_with_the_earning_process"
+    replace: |
+      Payments are made on a monthly basis and will be processed within 14 days after the end of each month.
+      Please double-check that your bank account details are accurate to ensure you receive your payments. We cannot be held responsible for payments sent to incorrect bank account details. Should you decide to leverage your crypto wallet for payouts, we highly encourage you use your verified wallet address.
+      Please note that the Gross earnings displayed on the "Dashboard" are estimates excluding the deduction of certain fees that are depending on factors such as the installed networks' policies, gas/transaction fee deductions or conversion rates. Please be aware that because of these components, the issued payouts are not going to equal to the estimated earnings displayed on the dashboard. 
+      If your details were correct and you haven't received your payment within the 14-day window, please contact our support team on support@hivello.com for assistance.
+  - trigger: ":earning_is_there_a_support_team_available_to_help_with_payment-related_issues"
+    replace: |
+      Payments are made on a monthly basis and will be processed within 14 days after the end of each month.
+      Please double-check that your bank account details are accurate to ensure you receive your payments. We cannot be held responsible for payments sent to incorrect bank account details. Should you decide to leverage your crypto wallet for payouts, we highly encourage you use your verified wallet address.
+      Please note that the Gross earnings displayed on the "Dashboard" are estimates excluding the deduction of certain fees that are depending on factors such as the installed networks' policies, gas/transaction fee deductions or conversion rates. Please be aware that because of these components, the issued payouts are not going to equal to the estimated earnings displayed on the dashboard. 
+      If your details were correct and you haven't received your payment within the 14-day window, please contact our support team on support@hivello.com for assistance.
+  - trigger: ":earning_how_do_i_ensure_my_earnings_are_safe_from_fraud"
+    replace: |
+      Fraud is possible but unlikly. We payout earnings every 14 days to your nomintaed Bank or Crypto account. Which means you have a maximum exposure of 14 days earnings in the unlikley event of Fraud.  
+  - trigger: ":earning_how_can_i_earn_money_using_this_app"
+    replace: |
+      After you download and install Hivello, the app will automatically start contributing to the DePIN protocols and you can start earning once you activate the available projects/protocols (DePINs) on the “Network” tab. Currently the app is supporting 2 amazing projects: Mysterium and Livepeer.
+      Firstly, we recommend you add your bank account or wallet details to ensure secure and smooth payouts. To complete this step, please navigate to the “Wallet” tab in the app. Please have your account number, SWIFT code, IBAN, account name and bank name handy to complete the process as fast as possible.
+      Now, get ready to install your preferred DePIN nodes, in other words, connect to at least one of the available web3 projects. To do so, please navigate either to the "Dashboard" or to the “Networks” tab. Here, you can select projects/DePIN node you would like to install by clicking on the icon. To maximize your earning potential, we recommend you connect to all available networks and run the app as frequently as you can (even 24/7).
+
+  - trigger: ":earning_what_are_the_steps_to_start_earning_money_through_the_app"
+    replace: |
+      Once you logged into the app, the only thing you need to do is to activate the available projects/protocols (DePINs) on the “Network” tab. We highly recommend activating all the available web3 projects to maximize your earning potential.
+      To provide you the best possible user experience, once you completed the download and installation of the app, please follow the below 2 simple steps:
+      Firstly, we recommend you add your bank account or wallet details to ensure secure and smooth payouts. To complete this step, please navigate to the “Wallet” tab in the app. Please have your account number, SWIFT code, IBAN, account name and bank name handy to complete the process as fast as possible.
+      Now, get ready to install your preferred DePIN nodes, in other words, connect to at least one of the available web3 projects. To do so, please navigate either to the "Dashboard" or to the “Networks” tab. Here, you can select projects/DePIN node you would like to install by clicking on the icon. To maximize your earning potential, we recommend you connect to all available networks and run the app as frequently as you can (even 24/7).
+
+  - trigger: ":earning_how_can_i_maximize_my_earning_potential"
+    replace: |
+      Our goal is to make earnings as easy as possible for you. Keeping this in mind, we want to take the burden away from you to constantly monitor your running projects/DePIN nodes. Once you are logged into your account, on the “Network” tab you can easily activate all the available projects/DePINs. We also recommend you run the app as frequently as you can (even 24/7) to maximize your earning potential.
+      Another great way to maximize your earning potential is to leverage multiple devices and contribute them to the project networks. If you have other devices that are meeting the prerequisites, you can download the app, but please remember that you should create a new user account and separate IP addresses for each device.
+
+  - trigger: ":earning_how_often_will_i_receive_earnings"
+    replace: |
+      Payments are made on a monthly basis, within 14 days of the end of the month.
+  - trigger: ":earning_do_i_need_to_keep_my_laptop_connected_at_all_times_to_earn"
+    replace: |
+      That’s a great question. You don’t need to keep your laptop or desktop connected at all times to earn, however, your earning potential is greatly dependent on this factor. Therefore, we recommend that you keep connected and run the app as frequently as you can (even 24/7).
+  - trigger: ":earning_do_i_need_to_verify_my_identity_to_start_earning_or_withdraw_funds"
+    replace: |
+      With the current version of the app, you don’t need to verify your identity to start earning or to withdraw your available funds.
+  - trigger: ":earning_what_verification_documents_are_required_for_withdrawal"
+    replace: |
+      With the current version of the app, you don’t need to verify your identity to start earning or to withdraw your available funds.
+  - trigger: ":earning_what_should_i_do_if_i_encounter_issues_with_my_earnings_or_withdrawals"
+    replace: |
+      You can always reach us at support@hivello.com, or for self-service, leverage the FAQ.
+      To monitor your earnings, we invite you to leverage the “Earnings” feature on the “Dashboard” tab. Please note that the earning estimation is updated on an hourly basis.
+      We are not liable for any payments issued to incorrectly entered bank account details. Please ensure that all banking information provided is accurate and up-to-date to avoid any issues with your payments.
+  - trigger: ":earning_how_much_can_i_expect_to_earn_on_average"
+    replace: |
+      The earning potential with Hivello varies greatly. Factors such as the availability of your resources, the demand in the DePIN protocols you are connected to, and the current market conditions all play a role. Hivello is designed to maximize your earnings by efficiently allocating your resources across multiple DePIN protocols.
+  - trigger: ":earning_is_there_a_minimum_amount_that_needs_to_be_accumulated_in_my_wallet_to_complete_the_payout"
+    replace: |
+      There isn't a minimum amount that needs to be accumulated in your wallet to complete the payout.
+  - trigger: ":earning_is_there_a_limit_on_how_much_i_can_earn"
+    replace: |
+      We estimate that per GPU, you can earn up to U$50, and per CPU U$15-20 per month. Please note that the earning potential greatly depends on the number of web3 projects/DePINs activated, and how frequently you are staying connected to the network and running the app.
+  - trigger: ":earning_can_i_use_multiple_devices_to_start_earning"
+    replace: |
+      Yes, you can install and use Hivello on any device that meets the system requirements. Please note, you will need to create a new account and IP address for each device you use.
+  - trigger: ":earning_do_you_have_a_referral_bonus_to_invite_friends"
+    replace: |
+      We are delighted to have you here as one of our selected early adopters, and hoping you have the greatest experience with us so far. We are also grateful to see your interest in inviting your friends to benefit from the passive earning potential that Hivello has to offer. Unfortunately, at this time, we don’t have a referral program available, but we will notify you if we launch one in the future.
+
+  - trigger: ":earning_is_there_a_way_to_receive_my_payment_in_[specific_currency_or_in_crypto]_instead_of_[what_is_available]"
+    replace: |
+      At Hivello we offer our hosts the opportunity to be paid by bank transfer through Revolut in a variety of fiat currencies, including but not limited to US Dollars, Euro, British Pound Sterling, Canadian Dollar & Australian dollars; or in USDT if you choose to get payed through your crypto wallet.
+      To learn more about the currencies supported by Revolut, we invite you to visit the following link. 
+  - trigger: ":earning_how_do_i_monitor_my_earnings_in_real_time"
+    replace: |
+      Once you are logged into the application, you can monitor your earnings through the “Dashboard” tab. Please note that the Dashboard is updating the earnings data on an hourly basis.
+  - trigger: ":earning_is_there_a_minimum_withdrawal_amount"
+    replace: |
+      There isn't a minimum amount that needs to be accumulated in your wallet to complete the payout.
+  - trigger: ":earning_are_there_any_restrictions_based_on_my_country_of_residence"
+    replace: |
+      Please be aware that legal and tax implications vary significantly from country to country, and it is important to adhere to the tax regulations of your country of tax residence regarding any earnings or transactions made through the platform.
+  - trigger: ":earning_are_there_any_specific_settings_or_configurations_needed_for_optimal_earning"
+    replace: |
+      To optimize your earnings, we highly encourage you to activate all available projects/DePINs on the Dashboard. 
+
+      Once you are logged into your account, please navigate to the “Networks” tab. Here, you can select projects/DePIN nodes like Mysterium or Livepeer. Click on the project and click on the “Install” button. To maximize your earning potential, we recommend you connect to all available networks and run the app as frequently as you can (even 24/7).
+
+      We would like to highlight that while you contribute to the Mysterium node, our recommendation is not to turn on your VPN on the local machine as this will block your earnings with Mysterium. 
+
+      Our champions in the Hivello team are working on launching an amazing feature, called “Advisory” to help you prioritize lucrative DePINs based on their usage, device specification requirements and such. Stay tuned for “Advisory”!! 
+
+  - trigger: ":earning_what_factors_affect_the_amount_of_money_i_earn"
+    replace: |
+      Some of the factors that are affecting your earning potential are the number of projects you are activating, whether you contribute with GPU or CPU, and how frequently you are staying connected to the network and running the app. 
+      To maximize your earning potential, we highly recommend you activate all the available web3 projects/DePINs on the dashboard and run the app as frequently as you can (even 24/7). 
+      Another great way to maximize your earning potential is to leverage multiple devices and contribute them to the project networks. If you have other devices that are meeting the prerequisites, you can download the app, but please remember that you should create a new user account for each device.
+
+  - trigger: ":earning_can_i_earn_more_by_participating_in_a_specific_web3_project"
+    replace: |
+      The key factors that are impacting your earning potential are the number of projects you are activating , and whether you contribute with GPU or CPU, and how frequently you are staying connected to the network and running the app.
+      To maximize your earning potential, we highly recommend you activate all the available web3 projects/DePINs on the dashboard and run the app as frequently as you can (even 24/7). 
+      Another great way to maximize your earning potential is to leverage multiple devices and contribute them to the project networks. If you have other devices that are meeting the prerequisites, you can download the app, but please remember that you should create a new user account for each device.
+
+  - trigger: ":earning_are_there_any_initial_investments_or_costs_required_to_start_earning"
+    replace: |
+      No, you don’t need to invest any money to start earning with Hivello if you already have the spare computer resource(s) that you would like to utilize.
+  - trigger: ":earning_what_are_the_available_payment_methods"
+    replace: |
+      The currently available payment methods are bank transfer and crypto wallet payout.
+  - trigger: ":earning_how_long_does_it_take_for_the_withdrawal_to_process"
+    replace: |
+      Payments are made on a monthly basis, within 14 days of the end of the month. Please make sure you enter accurate payment information and account details on the “Wallet” tab to ensure smooth payouts.
+  - trigger: ":earning_are_there_any_fees_associated_with_the_withdrawals"
+    replace: |
+      Withdrawals, currency exchange and transfers might be subject to fees that depend on your own bank or method of payment which we cannot advise on.
+  - trigger: ":earning_are_there_any_tax_implications_i_should_be_aware_of"
+    replace: |
+      Please be aware that tax implications vary significantly from country to country, and it is important to adhere to the tax regulations of your country of tax residence regarding any earnings or transactions made through the platform.
+  - trigger: ":earning_are_there_any_common_issues_that_could_affect_my_ability_to_earn"
+    replace: |
+      Your ability to earn is greatly affected by the number of web3 projects you activate, and whether you contribute with GPU or CPU. 
+      To maximize your earning potential, we highly recommend you activate all the available web3 projects on the dashboard. 
+      Another great way to maximize your earning potential is to leverage multiple devices and contribute them to the project networks. If you have other devices that are meeting the prerequisites, you can download the app, but please remember that you should create a new user account and IP address for each device.
+
+  - trigger: ":earning_are_there_any_legal_requirements_for_earning_money_through_the_app"
+    replace: |
+      The Hivello website and application are intended for users who are at least 18 years old. Persons under the age of 18 are not permitted to register for the site and for the application. To learn more about our Terms & Conditions, please visit Hivello.com.
+  - trigger: ":earning_do_i_need_to_report_my_earnings_to_the_tax_authorities"
+    replace: |
+      Please be aware that tax implications vary significantly from country to country, and it is important to adhere to the tax regulations of your country of tax residence regarding any earnings or transactions made through the platform.
+  - trigger: ":installation__the_installation_process_got_stuck_at_a_certain_point_what_should_i_do"
+    replace: |
+      We are so sorry to hear that! 
+If your device meets with the eligibility requirements (OS: Windows 10 Home/ Pro, Windows 11 Home/Pro operating system, 1 core CPU, 4GB RAM and 200GB free disk space) and you are part of the private preview, please contact us on support@hivello.com .
+  - trigger: ":installation__can_you_help_me_figure_out_the_right_version_of_the_app"
+    replace: |
+      The currently available version of the app is the Beta version. The prerequisites to use the app are: Windows 10 Home/ Pro or Windows 11 Home/Pro operating system, 1 core CPU, 4GB RAM and 200GB free disk space. If your device doesn’t meet with the OS, CPU, RAM or disk prerequisites, you won’t be able to run the application.
+  - trigger: ":installation__what_shall_i_do_if_the_downloaded_installation_file_is_corrupted"
+    replace: |
+      We are so sorry to hear that you were facing difficulties while downloading and installing the app!
+      May we kindly ask you to download the file again and initiate the installation?
+      If you encounter the same difficulties with the download and installation, please contact our support team on support@hivello.com for assistance.
+  - trigger: ":installation__is_it_possible_that_my_device_or_my_operating_system_is_not_compatible_with_the_app"
+    replace: |
+      To get started, you will need a Windows 10 Home/ Pro or Windows 11 Home/Pro operating system, 1 core CPU, 4GB RAM and 200GB free disk space. If your device doesn’t meet with the OS, CPU, RAM or disk prerequisites, you won’t be able to run the application.
+  - trigger: ":installation__what_is_the_minimum_amount_of_storage_required_to_install_the_app"
+    replace: |
+      The prerequisites are 1 core CPU, 4GB RAM and 200GB free disk space.
+  - trigger: ":installation__are_there_any_specific_permissions_required_to_complete_the_installation"
+    replace: |
+      You won't need any specific permissions to complete the installation. The only thing you will need is access to the downloaded program files.
+  - trigger: ":installation__can_you_please_guide_me_through_the_permission_allowance_that_i_need_to_perform_in_order_to_install_the_app"
+    replace: |
+      You won't need any specific permissions to complete the installation. The only thing you will need is access to the downloaded program files.
+  - trigger: ":installation__is_there_any_software_that_can_cause_conflicts_with_the_app_during_the_installation"
+    replace: |
+      Based on our user testing, we have not encountered any conflicts during the installation of our software. However, if you do experience any issues, please report them in our Discord community or contact customer support on support@hivello.com . 
+  - trigger: ":installation__what_should_i_do_if_my_os_is_outdated"
+    replace: |
+      To get started, you will need a Windows 10 Home/ Pro or Windows 11 Home/Pro operating system. If your OS is an older version of Windows (such as Windows 7 or 8), you can upgrade your operating system to a newer version. We are actively working to extend compatibility to older Windows versions, so stay tuned for future updates!
+  - trigger: ":installation__is_it_possible_that_the_app_is_not_supporting_the_language_or_local_settings_of_my_laptop"
+    replace: |
+      Currently, the Hivello app supports only English, even if your local machine is set to a different default language.
+  - trigger: ":installation__what_if_i_don’t_want_to_enable_private_network_access"
+    replace: |
+      If this means dont want to create VPN DePIN (e.g: Mysterium) then you can simply not install it. 
+  - trigger: ":installation__i_clicked_on_“launch_app”_once_the_components_were_installed,_but_the_app_is_not_launching_what_shall_i_do_now"
+    replace: |
+      We are so sorry to hear that you had difficulties while trying to launch the app.
+      Please note that the app needs a few minutes to set up and install all of the components down. Please wait for a couple of minutes - this shouldn't take longer than 5.
+      If the app is still not launching, you can double click the Hivello shortcut on Desktop or search for Hivell app in the system search and run it from there.
+  - trigger: ":installation__is_there_a_minimum_bandwidth_requirement_for_the_installation_of_the_app"
+    replace: |
+      There isn’t a minimum bandwidth requirement to install the app.
+  - trigger: ":installation__how_can_i_uninstall_the_app"
+    replace: |
+      To uninstall the app, please follow the steps on our website.
+  - trigger: ":onboarding_i_received_the_verification_email,_verified_my_email_but_the_app_doesn’t_allow_me_to_log_in_what_should_i_do_now"
+    replace: |
+      N/A for now
+  - trigger: ":onboarding_can_you_delete_me_from_your_database"
+    replace: |
+      We are so sad to see you leave the platform. Once you complete the deinstallation of the program, within 30 days your data will be removed from our database.
+  - trigger: ":onboarding_who_can_access_my_data"
+    replace: |
+      We value your trust in providing us your data, thus we are striving to use commercially acceptable means of protecting it.
+      Based on our policies, only our Admin staff has permission to access your data, that is only used for payouts, customer care & support and user experience enhancement purposes.
+  - trigger: ":onboarding_how_will_you_use_my_data"
+    replace: |
+      We value your trust in providing us your data, thus we are striving to use commercially acceptable means of protecting it.
+      Based on our policies, your data is only used to operate and maintain the app, issue your payouts, enhance your user experience, send you important product updates and notifications, and for customer support & care purposes. 
+  - trigger: ":onboarding_are_there_any_restrictions_based_on_my_country_of_residence"
+    replace: |
+      Our app supports blockchain technology, and it's important to note that restrictions related to blockchain can vary significantly by country. We strongly advise you to comply with all local legislation, laws, and tax regulations.
+  - trigger: ":onboarding_where_shall_i_report_bugs"
+    replace: |
+      Our champions in the Hivello developer team are working hard to fix all bugs proactively, however, if you encounter any bugs throughout your journey with us, we would be greatful if you could report them directly through the app. Thank you for your contribution in advance!
+  - trigger: ":onboarding_can_anyone_access_my_documents,_photos,_etc_if_they_use_my_laptop"
+    replace: |
+      No, no one can access your documents and photos if they use your device. All files stored on our network are encrypted, ensuring that your personal data (documents, photos, etc.) remains secure and inaccessible to others. Additionally, any data you host for others is also encrypted, so you cannot view the contents of the data stored on your rented disk space. We take your privacy and security very seriously to give you peace of mind.
+  - trigger: ":onboarding_i_completed_the_registration,_logged_into_the_app,_what_shall_i_do_now"
+    replace: |
+      Congratulations, you are one step closer to starting earning passive income with Hivello! 
+      Firstly, we recommend you add your bank account or wallet details to ensure secure and smooth payouts. To complete this step, please navigate to the “Wallet” tab in the app. Please have your account number, SWIFT code, IBAN, account name and bank name handy to complete the process as fast as possible.
+      Now, get ready to install your preferred DePIN nodes, in other words, connect to at least one of the available web3 projects. To do so, please navigate to the "Dashboard" or to the “Networks” tab. Here, you can select projects/DePIN nodes like Mysterium or Livepeer. If you decide to connect from the "Network" tab, please click on the project and click on the “Install” button. On the "Dashboard", simply click on the install icon in the "Actions" field. To maximize your earning potential, we recommend you connect to all available networks and run the app as frequently as you can (even 24/7).
+
+  - trigger: ":onboarding_what_should_i_do_on_the_“wallet”_tab"
+    replace: |
+      Please utilize the “Wallet” tab to add your bank account or wallet details to ensure secure and smooth payouts. Please have your account number, SWIFT code, IBAN, account name and bank name handy to complete the process as fast as possible.
+
+  - trigger: ":onboarding_i_didn’t_receive_the_verification_email_what_shall_i_do_now"
+    replace: |
+      N/A for now
+  - trigger: ":onboarding_i_wanted_to_join_a_web3_project_but_it_seems_like_it’s_invite_only_how_can_i_get_an_invite"
+    replace: |
+      N/A for now
+  - trigger: ":onboarding_will_using_the_app_affect_my_laptop’s_performance"
+    replace: |
+      While contributing to the DePIN nodes or web3 projects, you might experience slower response times, less processing power available for other tasks you might be doing on your laptop, such as browsing the web, using applications or gaming, overheating or shorter battery life or lifespan of your laptop components.
+  - trigger: ":onboarding_what_is_cpu"
+    replace: |
+      The CPU, or Central Processing Unit, is like the brain of your computer. It handles most of the work, like running programs and processing data. The CPU's speed and the number of cores it has determine how fast your computer can perform tasks. It's an essential part of what makes your computer work efficiently.
+  - trigger: ":onboarding_what_is_ram"
+    replace: |
+      RAM, or Random Access Memory, is like your computer's short-term memory. It temporarily stores data and programs that your computer is currently using, so it can access them quickly. More RAM helps your computer run faster and handle multiple tasks at once without slowing down. It's essential for smooth performance, especially when using several applications at the same time.
+  - trigger: ":onboarding_how_can_i_know_my_device’s_free_disk_space"
+    replace: |
+      To check your device's free disk space on a Windows device, please open "File Explorer" (you can find it by clicking the folder icon on your taskbar). Then, click on "This PC" in the left-hand menu. You'll see a list of your drives with the available space shown underneath each one. 
+  - trigger: ":onboarding_what_is_gpu"
+    replace: |
+      A GPU, or Graphics Processing Unit, is like the part of your computer that handles visuals and graphics. It helps create the images and videos you see on your screen, making things look smoother and more detailed. The GPU is especially important for tasks like gaming, video editing, and running graphics-intensive applications. Having a good GPU can make your computer run these tasks faster and with better quality.
+  - trigger: ":onboarding_how_will_the_lifetime_value_of_my_device_be_impacted_if_i_run_hivello"
+    replace: |
+      While contributing to the DePIN nodes or web3 projects, you might experience slower response times, less processing power available for other tasks you might be doing on your laptop, such as browsing the web, using applications or gaming, overheating or shorter battery life or lifespan of your laptop components.
+  - trigger: ":onboarding_shall_i_expect_that_the_lifetime_value_of_my_cpu_or_gpu_will_decrease_if_i_run_hivello"
+    replace: |
+      While contributing to the DePIN nodes or web3 projects, you might experience slower response times, less processing power available for other tasks you might be doing on your laptop, such as browsing the web, using applications or gaming, overheating or shorter battery life or lifespan of your laptop components.
+  - trigger: ":onboarding_is_there_a_hivello_user_community_that_i_can_join"
+    replace: |
+      Yes, we would be delighted to count you as a member of our Discord community.
+  - trigger: ":onboarding_is_it_safe_to_connect_my_gmail_account"
+    replace: |
+      Yes, it is safe to connect your Gmail account. When decide to log into the app with your Gmail account, the app securely gets your basic info (such as your email address and name) from Google to create or access your account. This way, you don’t need a separate password.
+  - trigger: ":onboarding_how_can_i_manage_and_track_my_active_networks"
+    replace: |
+      To provide you the best user experience possible, our Champions in the Hivello developer team built the application with the mindset “Set and forget”. This means that you don’t need to proactively manage and track your installed networks. However, if you want to, you can easily do that from the “Dashboard” tab. 
+      Within the Dashboard, you will see all available networks, their status (e.g., “Up and running” - your already installed networks; or “Install” - networks that are not installed), actions you could take (“Uninstall”, “Stop”, “Reinstall”, “Restart”) and your earnings with the DePIN network/web3 project.
+      To maximize your earning potential, we recommend you connect to all available networks and run the app as frequently as you can (even 24/7).
+
+  - trigger: ":onboarding_what_can_i_do_on_the_network_tab"
+    replace: |
+      Here, you can select projects/DePIN nodes like Mysterium or Livepeer. Click on the project and click on the “Install” button. 
+      To maximize your earning potential, we recommend you connect to all available networks and run the app as frequently as you can (even 24/7).
+
+  - trigger: ":onboarding_what_is_the_difference_between_the_available_web3_projects_in_the_app"
+    replace: |
+      The Hivello app is currently supporting 2 amazing projects/DePIN nodes: Mysterium and Livepeer. 
+      Mysterium is a decentralized VPN service and open marketplace that enhances internet privacy and security using a global network of nodes. This approach distributes data across multiple points, making it harder for any single entity to monitor or control, ensuring secure, anonymous internet access. While contributing to Mysterium, we recommend you don't turn on your VPN on the local machine as this will block your earnings with Mysterium.
+      Livepeer is a decentralized platform for video streaming that distributes video encoding tasks across a global network of nodes, reducing costs and enhancing scalability. It uses the native LPT token to incentivize participants and operates as an open-source, community-driven project. This decentralized approach enhances the privacy and security of video content. 
